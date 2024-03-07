@@ -11,5 +11,5 @@ Should Remove An Item In The Cart
     Click    data-test=add-to-cart-sauce-labs-backpack
     Click    id=shopping_cart_container
     Click    data-test=remove-sauce-labs-backpack
-
-    Wait For Elements State    //div[@class='removed_cart_item']    visible
+    # The class card list should be empty
+    Wait For Elements State    //div[@class='cart_item_label']    detached
