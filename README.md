@@ -20,14 +20,8 @@ pip install robotframework
 
 We need to install the Robot Framework Libraries that we plan to use in our tests.
 
-### Selenium Library
+### Browser Library
 
 ```{shell}
-pip install robotframework-seleniumlibrary
+pip install robotframework-browser
 ```
-
-When using the Selenium library, it is necessary to set up the webdriver for the specific version of the browser being used.
-
-On the [Selenium Documentation Downloads Page](https://www.selenium.dev/downloads/) in the section 'Platforms Supported by Selenium', we can find a list of supported browsers along with a link to download each corresponding webdriver.
-
-Once we have downloaded the webdriver, we must extract the file into the folder PYTHONPATH/Scripts.
