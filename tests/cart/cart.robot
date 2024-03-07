@@ -5,7 +5,6 @@ Resource    ${EXECDIR}/resources/base.robot
 
 ***Test Cases***
 Should Remove An Item In The Cart
-    [Tags]    This
     Login With    standard_user    secret_sauce
 
     Click    data-test=add-to-cart-sauce-labs-backpack
