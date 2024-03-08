@@ -20,8 +20,24 @@ pip install robotframework
 
 We need to install the Robot Framework Libraries that we plan to use in our tests.
 
-### Browser Library
+### [Browser Library](https://robotframework-browser.org/)
+
+Browser Library requires [NodeJs](https://nodejs.org/en/download).
+
+[Install Browser Library:](https://docs.robotframework.org/docs/different_libraries/browser)
 
 ```{shell}
 pip install robotframework-browser
+```
+
+Install the node dependencies:
+
+```{shell}
+rfbrowser init
+```
+
+- if rfbrowser is not found, try:
+
+```{shell}
+python -m Browser.entry init
 ```
