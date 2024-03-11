@@ -41,3 +41,6 @@ rfbrowser init
 ```{shell}
 python -m Browser.entry init
 ```
+
+## Code Editor
+We need to install a code editor to write Robot Framework scripts. We recommend using [Visual Studio Code](https://code.visualstudio.com/download).
